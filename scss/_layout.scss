@@ -45,12 +45,17 @@ body {
 
 #om,
 #kart,
+#gammel-side,
 #kontakt {
 	@extend .col-12;
 	@extend .col-md-8;
 	@extend .col-md-offset-2;
 
 	padding-top:140px;
+}
+
+#gammel-side .text-badge {
+        background:rgba(255,0,0,0.5);
 }
 
 #branding {
